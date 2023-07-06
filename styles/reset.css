@@ -15,7 +15,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: 'Helvetica';
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -45,10 +45,4 @@ table {
 a {
 	text-decoration: none;
 
-}
-* {
-    font-family:Helvetica;
-}
-form {
-    display: inline-block;
 }

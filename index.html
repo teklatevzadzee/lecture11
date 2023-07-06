@@ -6,17 +6,21 @@
     <title>lecture11</title>
     <link rel="stylesheet" type="text/css" href="styles/reset.css" />
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles/media.css" />
+
   </head>
   <body>
+  <div class="main">
+   <div class="top"> 
     <h5>Contact</h5>
     <h2>Contact us to get<br/>free support</h2>
-    <form>
-      <textarea name="message" rows="10" cols="30">
-The cat was playing in the garden.</textarea
-      >
-      <br /><br />
-      <input type="submit" />
+  </div>
+   <div class="box"> <form>
+     <div class="box1"> 
+      <textarea name="message" rows="10" cols="30" placeholder="Description"></textarea>
     </form>
+    </div>
+    <div class="box2">
     <form>
       <label for="subject"></label>
       <input
@@ -36,49 +40,60 @@ The cat was playing in the garden.</textarea
       <input type="email" id="Email" name="Email" placeholder="Email" /><br />
       <input type="submit" value="Send" />
     </form>
+    </div>
+  </div>
     <section>
       <div class="parent1">
-        <div class="child1">
-          <img src="images/Frame.svg"/>
+        <div class="child">
+          <div class="circle">
+            <img src="images/Frame.svg"/>
+          </div>
           <h3>Email</h3>
           <p>education@yahoo.edu.ge</p>
           <p>edu.e.education@yahoo.edu.ge</p>
         </div>
-        <div class="child2">
-          <img src="images/Phone 2.png" />
+        <div class="child">
+          <div class="circle">
+            <img src="images/Phone 2.png" />
+          </div>
           <h3>Phone</h3>
           <p>+995 591 66 6456</p>
           <p>+995 591 66 6876</p>
         </div>
-        <div class="child3">
-          <img src="images/Frame (1).svg" />
+        <div class="child">
+          <div class="circle"><img src="images/Frame (1).svg" />
+          </div>
           <h3>Location</h3>
           <p>Mail str, Chicago iinois</p>
           <p>Main street, New York City</p>
         </div>
       </div>
-    </section>
-    <section>
-      <h5>Photos</h5>
+    
+      <div class="bottom">
+        <h5>Photos</h5>
       <h2>See our latest photos<br/>from restaurant and hotel </h2>
+    </div>
       <div class="parent2">
-        <div class="circle"><img src="images/image 1.jpg"/></div>
-        <div class="circle"><img src="images/image 2.jpg" /></div>
-        <div class="circle"><img src="images/image 3.jpg" /></div>
+        <div class="img"><img src="images/image 1.jpg"/></div>
+        <div class="img"><img src="images/image 2.jpg" /></div>
+        <div class="img"><img src="images/image 3.jpg" /></div>
       </div>
     </section>
-    <footer class="footer">
+  </div>
+    <footer>
         <div class="f1">
             <h4>Zwtta Hotels</h4>
             <p>Our hotel in on teh huge quality
                 and proffesionalism and with hard
                 work and cearing. You can accept
                 only the best services from our stuff</p>
-            <img src="images/Ellipse 5.png"/> 
-            <img src="images/Ellipse 6.png"/> 
+            <div class="images">
+              <img src="images/Ellipse 5.png"/>
+            <img src="images/Ellipse 6.png"/>  
             <img src="images/Ellipse 7.png"/> 
+          </div>
         </div>
-        <div>
+        <div class="f2">
             <h6>Useful Links</h6>
             <ul>
                 <li>Blog</li>
@@ -87,7 +102,7 @@ The cat was playing in the garden.</textarea
                 <li>Testimonials</li>
             </ul>
         </div>
-        <div>
+        <div class="f3">
             <h6>Privacy</h6>
             <ul>
                 <li>Career</li>
@@ -96,16 +111,14 @@ The cat was playing in the garden.</textarea
                 <li>Services</li>
             </ul>
         </div>
-        <div>
+        <div class="f4">
             <h6>Contact Info</h6>
-            <img src="images/Ellipse 5.png"/>
-            <p>info@yahoo.com</p> 
-            <img src="images/Ellipse 6.png"/> 
-            <p>+ 995 591111 999</p>
-            <img src="images/Ellipse 7.png"/> 
-            <P>Main str. Chicago Illinois</P>
+          <ul>
+            <li><img src="images/Frame.svg"/>info@yahoo.com</li>
+            <li><img src="images/Phone 2.png"/>+ 995 591111 999m</li>
+            <li><img src="images/Frame (1).svg"/>Main str. Chicago Illinois</li>
+          </ul>  
         </div>
-
     </footer>
   </body>
 </html>
